@@ -1,0 +1,43 @@
+.organization {
+	text-align: right;
+	line-height: 1.5;
+	height: 32em;
+	margin-top: 7em;
+}
+
+.organization-title {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: right;
+  color: #24b47e;
+	margin-bottom: 40px;
+}
+
+.organization-description {
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  color: #6b7c93;
+}
+
+.organization-discover {
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  color: #6772e5;
+}
+
+@media (max-width: 767px) {
+	.organization {
+		text-align: center;
+		margin-top: 0;
+		height: 14em;
+	}
+	.organization-description {
+		font-size: 14px;
+	  line-height: 1.5;
+	  letter-spacing: 0.4px;
+	}
+	.organization-title {
+		text-align: center;
+	}
+}

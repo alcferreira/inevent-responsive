@@ -1,0 +1,139 @@
+.home {
+	height: 46em;
+	background-image: linear-gradient(340deg, #01579b, #469ee4);
+	position: relative;
+}
+
+.home-background:after {
+	position: absolute;
+	left: -1%;
+	width: 250%;
+	height: 25em;
+	content: '';
+	background-color: white;
+	transform: rotate(-12deg);
+	bottom: 0;
+	margin-bottom: 0%;
+}
+
+.home-logo {
+	width: 40px;
+	height: 53px;
+	object-fit: contain;
+}
+
+.home-location {
+	border-radius: 100px;
+	background-color: rgba(16, 20, 62, 0.35);
+	display: inline-block;
+	padding: 3px 7px;
+}
+
+.home-location--badge {
+  border-radius: 100px;
+  background-color: #24b47e;
+	padding: 3px 7px;
+	font-family: SourceSansPro;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.home-location--description {
+	font-size: 14px;
+	letter-spacing: 0.6px;
+  color: #ffffff;
+}
+
+.home-content--title {
+	font-size: 42px;
+	letter-spacing: 0.1px;
+  color: #ffffff;
+	padding-top: 1em;
+}
+
+.home-content--logo {
+	padding-top: 3em;
+	margin-left: 40px;
+	position: absolute;
+	z-index: 0;
+}
+
+.home-content--description {
+	line-height: 1.65;
+  letter-spacing: 0.4px;
+  color: #d9fcff;
+	font-size: 17px;
+	padding-top: 1em;
+}
+
+.home-content--download {
+	margin-top: 5em;
+}
+
+.home-navbar {
+	margin-top: 1em !important;
+}
+
+.home-navbar.center {
+	margin-left: 20% !important;
+}
+
+.home-navbar.right {
+	margin-left: 10% !important;
+}
+
+@media (max-width: 767px) {
+	.home-navbar {
+		margin-top: 0 !important;
+	}
+
+	.home-navbar.center {
+		margin-left: 0 !important;
+	}
+
+	.home-navbar.right {
+		margin-left: 0 !important;
+	}
+  .navbar-bg {
+		background-color: rgba(73, 73, 73, 0.5);
+		height: 40px;
+	}
+	.navbar-brand {
+		padding-top: 10px !important;
+	}
+	.home-logo {
+		width: 25px;
+		height: 32.5px;
+	}
+	.home-content--logo {
+		width: 184.3px;
+		height: 239.9px;
+		padding-top: 3em;
+		margin-left: 0;
+		position: absolute;
+		z-index: 0;
+	}
+	.home-content--title {
+		text-align: center;
+	}
+	.home-content--description {
+		padding-top: 0px;
+		font-size: 14px;
+	  line-height: 1.5;
+	  letter-spacing: 0.3px;
+	  text-align: center;
+	}
+	.home-content--download {
+		margin-top: 2em;
+		margin-left: 5.6em;
+	}
+	.home {
+		height: 51.5em;
+	}
+	.home-background:after {
+		height: 20em;
+		left: -5%;
+	}
+}
